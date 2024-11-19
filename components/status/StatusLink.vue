@@ -20,7 +20,7 @@ function onclick(evt: MouseEvent | KeyboardEvent) {
 }
 
 function go(evt: MouseEvent | KeyboardEvent) {
-  if (evt.metaKey || evt.ctrlKey || evt.button === 3) {
+  if (evt.metaKey || evt.ctrlKey || evt.button === 1) {
     window.open(statusRoute.value.href)
   }
   else {
